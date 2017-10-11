@@ -4,5 +4,10 @@ namespace BinarySearch;
 
 require 'CreatСlassArray.php';
 
-$massiv = new \CreateArr\Arr(1, 5);
+try {
+    $massiv = new \CreateArr\Arr();
+} catch (\Exception $e) {
+    echo 'Ошибка входных данных:  ',  $e->getMessage(), "\n";
+}
+
 print_r($massiv);
