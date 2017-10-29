@@ -4,6 +4,7 @@ namespace CreateArr;
 
 class Arr
 {
+    public $a;
     public $array = [];
     public function __construct($a = 0, $b = 10)
     {
