@@ -11,3 +11,4 @@ try {
 }
 
 print_r($massiv);
+$massiv -> search(5);
